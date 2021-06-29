@@ -1,0 +1,152 @@
+.sidenav{
+    width:15rem;
+    min-height: 101vh;
+    background-color: brown;
+}
+
+.sidenav .nav-item{
+    position: relative;
+    margin-bottom: 0px;
+    list-style: none;   
+}
+
+.sidenav .nav-item .nav-link{
+    text-align:left;
+    padding-left:0rem;
+    width: auto;
+	color: yellow;
+}
+
+.sidenav .nav-item .nav-link span {
+	font-size: 0.9rem;
+}
+
+.log{
+    background-color: cyan;
+}
+
+.log .admin span{
+    font-size: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#form{
+    padding-top: 20px;
+}
+
+.form-control {
+	height: 55px;
+	background: #fff !important;
+	font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+
+.form-control:active, .form-control:focus {
+	border-color: #ffa188; }
+
+.form-control:hover, .form-control:active, .form-control:focus {
+	-webkit-box-shadow: none !important;
+    box-shadow: none !important;}
+    
+.btn{
+    border-radius: 30px;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: none !important;
+    -webkit-box-shadow:none !important;
+}
+
+.btn:active, .btn:focus{
+    outline: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.btn:hover{
+    background-color: rgb(224, 26, 92);
+    border-color:  rgb(224, 26, 92);
+}
+
+#wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+  
+#wrapper #content-wrapper {
+    background-color: #f8f9fc;
+    width: 100%;
+    overflow-x: hidden;
+}
+  
+#wrapper #content-wrapper #content, #wrapper #content-wrapper #regv, #wrapper #content-wrapper #regc, #wrapper #content-wrapper #rega {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+}
+
+#content, #regv, #regc, #rega{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#content .card-header, #regv .card-header, #regc .card-header, #rega .card-header{
+    background-color: #dababa;
+    font-weight: bold;
+    color: #c31c1c;
+    font-family: sans-serif;
+}
+
+#content thead{
+    color: deeppink;
+    background-color: rgb(232, 231, 226);
+    font-size: small;
+}
+
+.collapse span{
+    font-size: 35px;
+}
+
+.collapse .nav-item .nav-link{
+    color:red;
+}
+
+.navbar span{
+    color: red;
+}
+
+.dropdown-menu{
+    background-color: yellow;
+    font-size: 14px;
+}
+
+.dropdown-item{
+    text-align: left;
+    padding: .5rem 0.5rem;
+    font-family: Baskerville Old Face;
+}
+
+.dropdown-item i{
+    color: black;
+    font-size: small;
+    padding-right: 3px;
+}
+
+.navbar{
+    background-color: yellow;
+}
+
+.navbar-brand{
+    color: red;
+    font-weight: bold;
+    font-family: Tahoma;
+    letter-spacing: 5px;
+}
+
+.navbar-brand:hover{
+    color: red;
+}
+
+#regv label, #regc label, #rega labe{
+    font-family: Georgia;
+}
